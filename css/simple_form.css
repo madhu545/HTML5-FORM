@@ -1,0 +1,82 @@
+html,
+input {
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 2em;
+    background-color: rgb(179, 211, 233);
+}
+
+.headerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: rgb(231, 228, 6);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+div {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label,
+input,
+button {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+label {
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+
+input {
+    flex: auto;
+}
+
+
+button {
+    width: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+error-output {
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
